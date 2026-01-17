@@ -1,75 +1,66 @@
-// components/Footer.jsx
-import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebook, FaGithub, FaXTwitter } from "react-icons/fa6";
+const FooterSection = () => {
+    return (
+        <footer className="bg-dark text-light py-5">
+            <div className="container">
+                <div className="row justify-content-between">
 
-const Footer = () => {
-  return (
-    <footer className="bg-dark text-light pt-5 pb-4">
-      <Container>
-        <Row>
-          {/* Column 1 */}
-          <Col md={3} className="mb-4">
-            <h5 className="fw-bold">Meta Open Source</h5>
-            <p className="text-secondary mt-3">
-              © Meta Platforms, Inc
-            </p>
-            <p className="text-secondary">uwu?</p>
-          </Col>
+                    {/* Column 1 */}
+                    <div className="col-md-3 mb-4">
+                        <h5 className="fw-bold">Meta Open Source</h5>
+                        <p className="text-secondary mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
 
-          {/* Column 2 */}
-          <Col md={2} className="mb-4">
-            <h6 className="fw-bold">Learn React</h6>
-            <ul className="list-unstyled mt-3">
-              <li>Quick Start</li>
-              <li>Installation</li>
-              <li>Describing the UI</li>
-              <li>Adding Interactivity</li>
-              <li>Managing State</li>
-              <li>Escape Hatches</li>
-            </ul>
-          </Col>
+                    {/* Column 2 */}
+                    <div className="col-md-2 mb-4">
+                        <h6 className="fw-bolder fs-5">Learn React</h6>
+                        <ul className="list-unstyled mt-4 text-white">
+                            <li className="my-2 fw-normal textSmall ">Quick Start</li>
+                            <li className="my-2 fw-normal textSmall ">Installation</li>
+                            <li className="my-2 fw-normal textSmall ">Describing the UI</li>
+                            <li className="my-2 fw-normal textSmall ">Adding Interactivity</li>
+                            <li className="my-2 fw-normal textSmall ">Managing State</li>
+                            <li className="my-2 fw-normal textSmall ">Escape Hatches</li>
+                        </ul>
+                    </div>
 
-          {/* Column 3 */}
-          <Col md={2} className="mb-4">
-            <h6 className="fw-bold">API Reference</h6>
-            <ul className="list-unstyled mt-3">
-              <li>React APIs</li>
-              <li>React DOM APIs</li>
-            </ul>
-          </Col>
+                    {/* Column 3 */}
+                    <div className="col-md-2 mb-4">
+                        <h6 className="fw-bolder fs-5">API Reference</h6>
+                        <ul className="list-unstyled mt-4 text-white">
+                            <li className="my-2 fw-normal textSmall">React APIs</li>
+                            <li className="my-2 fw-normal textSmall">React DOM</li>
+                        </ul>
+                    </div>
 
-          {/* Column 4 */}
-          <Col md={2} className="mb-4">
-            <h6 className="fw-bold">Community</h6>
-            <ul className="list-unstyled mt-3">
-              <li>Code of Conduct</li>
-              <li>Meet the Team</li>
-              <li>Docs Contributors</li>
-              <li>Acknowledgements</li>
-            </ul>
-          </Col>
+                    {/* Column 4 */}
+                    <div className="col-md-2 mb-4">
+                        <h6 className="fw-bolder fs-5">Community</h6>
+                        <ul className="list-unstyled mt-4 text-white">
+                            <li className="my-2 fw-normal textSmall">Code of Conduct</li>
+                            <li className="my-2 fw-normal textSmall">Meet the Team</li>
+                            <li className="my-2 fw-normal textSmall">Docs Contributors</li>
+                            <li className="my-2 fw-normal textSmall">Acknowledgements</li>
+                        </ul>
+                    </div>
 
-          {/* Column 5 */}
-          <Col md={2} className="mb-4">
-            <h6 className="fw-bold">More</h6>
-            <ul className="list-unstyled mt-3">
-              <li>Blog</li>
-              <li>React Native</li>
-              <li>Privacy</li>
-              <li>Terms</li>
-            </ul>
-          </Col>
-        </Row>
+                    {/* Column 5 */}
+                    <div className="col-md-2 mb-4">
+                        <h6 className="fw-bolder fs-5">More</h6>
+                        <ul className="list-unstyled mt-3 text-white">
+                            <li className="my-2 fw-normal textSmall">Blog</li>
+                            <li className="my-2 fw-normal textSmall">React Native</li>
+                            <li className="my-2 fw-normal textSmall">Privacy</li>
+                            <li className="my-2 fw-normal textSmall">Terms</li>
 
-        {/* Social Icons */}
-        <div className="d-flex justify-content-end gap-3 mt-4">
-          <FaFacebook size={22} />
-          <FaXTwitter size={22} />
-          <FaGithub size={22} />
-        </div>
-      </Container>
-    </footer>
-  );
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    );
 };
 
-export default Footer;
+export default FooterSection;
