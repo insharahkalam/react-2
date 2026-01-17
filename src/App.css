@@ -3,13 +3,14 @@
 }
 
 .icon_hover:hover {
-    background-color: #2D323B!important;
+    background-color: #2D323B !important;
 }
-.text{
+
+.text {
     font-size: 50px;
 }
 
-.textSmall{
+.textSmall {
     font-size: 14px;
-    font-weight:500 !important;
+    font-weight: 500 !important;
 }

@@ -2,12 +2,11 @@ import logo from "../assets/react.svg";
 import ThemeBtn from "../Utils/ThemeBtn";
 
 function Hero() {
-
     return (
         <>
             <section
                 className="d-flex flex-column justify-content-center align-items-center text-center"
-                style={{ minHeight: "90vh", backgroundColor: "#23272F" }}
+                style={{ minHeight: "90vh", backgroundColor: "#181A1F" }}
             >
                 <img
                     src={logo}
@@ -32,7 +31,6 @@ function Hero() {
                         text="API Reference"
                         className="bg-transparent border text-white"
                     />
-
                 </div>
             </section>
         </>

@@ -5,10 +5,8 @@ import { AiFillGithub } from "react-icons/ai";
 import '../App.css';
 function Header() {
   return (
-
-
     <>
-      <nav className='px-3 py-2 d-flex justify-content-between align-items-center' style={{ backgroundColor: "#23272F" }}>
+      <nav className='px-3 py-2 d-flex justify-content-between align-items-center' style={{ backgroundColor: "#181A1F" }}>
         <div className='d-flex align-items-center gap-2'>
           <img src={logo} alt="" />
           <span className='text-secondary fw-medium'>v19.2</span>

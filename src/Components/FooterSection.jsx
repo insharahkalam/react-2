@@ -1,12 +1,17 @@
+import { FaMeta } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { PiButterflyLight } from "react-icons/pi";
+import { BsGithub } from "react-icons/bs";
 const FooterSection = () => {
     return (
-        <footer className="bg-dark text-light py-5">
+        <footer className="text-light py-5" style={{ backgroundColor: "#16181D" }}>
             <div className="container">
                 <div className="row justify-content-between">
 
                     {/* Column 1 */}
                     <div className="col-md-3 mb-4">
-                        <h5 className="fw-bold">Meta Open Source</h5>
+                        <h5 className="fw-bold"> <FaMeta className="text-primary" /> Meta Open Source</h5>
                         <p className="text-white textSmall mt-3">
                             Copyright © Meta Platforms, Inc <br />
                             uwu?
@@ -54,7 +59,7 @@ const FooterSection = () => {
                             <li className="my-2 textSmall">React Native</li>
                             <li className="my-2 textSmall">Privacy</li>
                             <li className="my-2 textSmall">Terms</li>
-
+                            <li className="my-2 d-flex justify-content-start align-items-center gap-2"><FaFacebook size={25} /> <FaXTwitter size={25} /> <PiButterflyLight size={27} fill="white" /> <BsGithub size={25} /></li>
                         </ul>
                     </div>
 

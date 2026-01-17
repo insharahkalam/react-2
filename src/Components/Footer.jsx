@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <section
                 className="d-flex flex-column justify-content-center align-items-center text-center"
-                style={{ minHeight: "90vh", backgroundColor: "#23272F" }}
+                style={{ minHeight: "90vh", backgroundColor: "#181A1F" }}
             >
                 <img
                     src={logo}
