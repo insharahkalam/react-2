@@ -1,8 +1,7 @@
 import logo from "../assets/react.svg";
 import ThemeBtn from "../Utils/ThemeBtn";
 
-function Hero(props) {
-    console.log(props.btnText);
+function Hero() {
 
     return (
         <>
