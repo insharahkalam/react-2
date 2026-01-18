@@ -20,7 +20,7 @@ const MainSection = () => {
           <p className="pt-2 fw-light text-center mx-auto w-75">React.js is a popular JavaScript library used for building fast and interactive user interfaces. It follows a component-based architecture and is widely used in modern web development. The following topics explain the core concepts of React.js that help developers build efficient and dynamic single-page applications.</p>
         </div>
 
-        <Carousel>
+        <Carousel controls={false}>
           <Carousel.Item interval={1000}>
             <main className='px-2 d-flex justify-content-center gap-3 align-items-center'>
 
