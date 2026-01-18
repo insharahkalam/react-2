@@ -14,3 +14,18 @@
     font-size: 14px;
     font-weight: 500 !important;
 }
+
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0 4px;
+    background-color: rgb(107, 99, 99) !important;
+    transition: all 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff !important;
+    width: 14px;
+    height: 14px;
+}

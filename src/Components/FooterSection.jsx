@@ -5,7 +5,7 @@ import { PiButterflyLight } from "react-icons/pi";
 import { BsGithub } from "react-icons/bs";
 const FooterSection = () => {
     return (
-        <footer className="text-light py-5" style={{ backgroundColor: "#16181D" }}>
+        <footer className="text-light pt-5" style={{ backgroundColor: "#16181D" }}>
             <div className="container">
                 <div className="row justify-content-between">
 
